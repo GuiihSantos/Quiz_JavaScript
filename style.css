@@ -19,11 +19,20 @@ body{
 .pergunta {
     font-size: 18px;
     margin: 20px 0;
+    max-width: 400px;
+}
+
+.contagem {
+    position: absolute;
+    top: 20px;
+    right:  0px;
+
 }
 
 
 .container-principal {
     /* border: 1px solid rgb(255, 255, 255); */
+    position: relative;
     display: flex;
     flex-direction: column;
     color: aliceblue;
