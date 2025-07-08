@@ -3,7 +3,7 @@ export let questoes = [
     questao:
       "Qual palavra-chave é usada para declarar uma variável em JavaScript que pode ser reatribuída?",
     opcoes: ["const", "let", "var", "static"],
-    resposta: 2,
+    resposta: 1,
   },
   {
     questao:

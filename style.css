@@ -67,3 +67,48 @@ padding: 10px   ;
     color: azure;
     margin-top: 20px;
 }
+
+.container-final-jogo{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container-final-jogo h2{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 10px white;
+    font-weight: bold;
+}
+
+.msg-resultado {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-resultado{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.resultado {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    height: 40px;
+}
+
+.container-final-jogo button {
+    height: 29px;
+    width: 100%;
+    cursor: pointer;
+}
+
+ .container-final-jogo{
+    display: none;
+    
+}
