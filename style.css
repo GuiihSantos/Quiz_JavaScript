@@ -48,7 +48,6 @@ body{
 
 .opcao{
 
-    height: 40px;
     background-color: #22586d;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -110,5 +109,17 @@ padding: 10px   ;
 
  .container-final-jogo{
     display: none;
-    
+  
+}
+
+
+@media (width < 567px){
+    .container-principal {
+        padding: 17px;
+        max-width: 350px;
+    }
+
+    .contagem{
+        padding: 1px;
+    }
 }
