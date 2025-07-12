@@ -119,7 +119,11 @@ padding: 10px   ;
         max-width: 350px;
     }
 
-    .contagem{
+    .contagem {
         padding: 1px;
+    }
+
+    .resultado {
+        margin: 10px 5px 5px;
     }
 }
